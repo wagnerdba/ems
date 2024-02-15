@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;    
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+}
+
+.header {
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: black;
+    text-align: left;
+    color: white;    
+    position: relative;
+    width: 100%;
+    padding-left: 20px;
+}

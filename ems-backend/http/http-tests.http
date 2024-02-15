@@ -1,0 +1,28 @@
+### CREATE EMPLOYEE
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+
+{
+  "firstName": "Wagner",
+  "lastName": "Pires",
+  "email": "wagner.dev.br@gmail.com"
+}
+
+### GET EMPLOYEE BY ID
+GET http://localhost:8080/api/employees/7
+
+### GET ALL EMPLOYEES
+GET http://localhost:8080/api/employees
+
+### UPDATE EMPLOYEE
+PUT http://localhost:8080/api/employees/1
+Content-Type: application/json
+
+{
+  "firstName": "Miramar",
+  "lastName": "Pires",
+  "email": "miramarpires@hotmail.com"
+}
+
+### DELETE EMPLOYEE
+DELETE http://localhost:8080/api/employees/6
